@@ -1,0 +1,55 @@
+.weathercon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/rainbow.jpg);
+  flex-direction: column;
+  background-size: cover;
+}
+div > p{
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.butt{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: 0 0 0 1px white;
+  border-radius: 2em;
+  color:rgb(28, 2, 52)
+}
+
+.butt:hover{
+  transform: scale(1.2);
+  transition:all 500ms ease-in-out;
+}
+
+
+.buttd{
+  background-color: gold;
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+p{
+  color: black;
+}
+
+.datad{
+  background-color: azure;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.weathertop{
+  margin-bottom: 50px;
+  font-size: 80px;
+  background-color: white;
+  border-radius: 20px;
+}

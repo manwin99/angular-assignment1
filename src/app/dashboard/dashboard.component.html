@@ -1,0 +1,10 @@
+
+<div class="weathercon">
+  <div class="weathertop">Weather Today</div>
+  <div class="buttd">
+  <button class="butt" (click)="getme()">Get Weather</button>
+  </div>
+  <div class="datad" [hidden]="joy">
+  <p>{{this.fudata?.weather[0].main}}</p>
+  </div>
+</div>  

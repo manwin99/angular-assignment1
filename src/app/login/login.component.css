@@ -1,0 +1,71 @@
+.image{
+  background-image: url("../../assets/cloudimg.jpg");
+  filter: blur(5px);
+  height: 100vh;
+  width: 100vw;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.loginhead,.usernamecon,.passcon,.logincon{
+  margin-bottom: 10px;
+  border-radius: 25px;
+  
+}
+
+.logincontainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: hsl(240, 3%, 94%,.4);;
+  display: flex;
+  /*margin-top: 250px;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+  border-radius: 2em;
+  z-index: 2 !important;
+  
+  
+  
+  
+  
+  
+}
+
+.loginhead{
+  background-color: rgb(54, 55, 54);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  color: azure;
+  opacity: 1;
+}
+
+.usernamecon{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.passcon{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.logincon{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
